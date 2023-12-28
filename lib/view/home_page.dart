@@ -23,6 +23,7 @@ class HomeScreen extends StatelessWidget {
                   value.number();
                 },
                 child: const Text('data')),
+                const SizedBox(height: 15,),
             ElevatedButton(
                 onPressed: () {
                   value.lower();
